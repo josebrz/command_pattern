@@ -13,7 +13,9 @@ interface Commands {
     jugar: JugarCommand
 }
 
-export const getCommand = (orden: Ordenes, plantel:Plantel): ICommand  => {
+const plantel = new Plantel();
+
+export const getCommand = (orden: Ordenes): ICommand  => {
     const commands: Commands = {
         entrenar: new EntrenarCommand(plantel),
         descansar: new DescansarCommand(plantel),

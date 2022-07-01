@@ -1,0 +1,60 @@
+#homeBody {
+    background-image: url("../img/futbol-1.jpg");
+    background-size: cover;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 25% 10%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 13%;
+    margin-left: 10%;
+}
+
+#title {
+    font-family: "Arial";
+    vertical-align: middle;
+    font-size: 35px;
+    margin-left: 26%;
+    margin-top: 10%;
+}
+
+#entrenarBody {
+    background-image: url("../img/entrenar.jpeg");
+    background-size: cover;
+}
+#descansarBody {
+    background-image: url("../img/descansar.jpeg");
+    background-size: cover;
+}
+#jugarBody {
+    background-image: url("../img/jugar.jpeg");
+    background-size: cover;
+}
+
+.message {
+    font-family: "Arial";
+    vertical-align: middle;
+    color: coral;
+    font-size: 70px;
+    margin-left: 26%;
+    margin-top: 10%;
+}
+
+.volverButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 25% 10%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 13%;
+    margin-left: 10%;
+}
